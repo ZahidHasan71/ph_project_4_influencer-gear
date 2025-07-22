@@ -47,7 +47,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem 6rem;
 }
 
 .banner-title{
@@ -91,3 +90,66 @@ nav{
     justify-content: space-around;
 }
 /* company part end*/
+/* popular part */
+.popular-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-bottom: 40px ;
+}
+.popular-collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: space-around;
+}
+.product{
+    background-color: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    margin: 10px; 
+    border-radius: 5px;
+    max-width: 330px;
+    width: 100%;  
+}
+.product img{
+    width: 300px;
+}
+.product-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.product-price{
+    font-size: 24px;
+    color: #3A3A3A;
+    margin: 10px 0;
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.stars i{
+    color: #FB8200;
+}
+.rating-amount{
+    margin-left: 10px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+.product-description{
+    color: #3A3A3A;
+    font-weight: 600;
+    margin-top: 10px 0;
+}
+/* popular part end */
+
+
+/* media queries */
+/* @media screen and (min-width: 1440px) {
+    .popular-collections{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+} */
