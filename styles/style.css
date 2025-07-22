@@ -11,12 +11,16 @@
 body {
     overflow-x: hidden;
 }
+/* shere styles */
+.container{
+    padding: 6rem 8rem;
+}
+/* shere styles */
 /* nav part */
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 5rem 6rem;
-    background-color: white;
+    background-color: #fff;
     width: 100%;
     z-index: 10;
 }
@@ -74,3 +78,16 @@ nav{
 
 }
 /* banner part end*/
+/* company part */
+.custom-line {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgb(170, 170, 170), transparent);
+    width: 100%;
+    margin: 40px 0;
+}
+.company-logos{
+    display: flex;
+    justify-content: space-around;
+}
+/* company part end*/
